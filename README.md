@@ -16,19 +16,19 @@ ESC effectively handles complex clustering tasks where traditional methods may f
 ```plaintext
 Algorithm: Evolutionary Spanning Clustering (ESC)
 
-Input: Dataset \( \mathbf{X} \), distance threshold \( D \), 
-       population size \( P \), number of generations \( G \), 
-       mutation rate \( \mu \)
+Input: Dataset X, distance threshold D, 
+       population size P, number of generations G, 
+       mutation rate μ
 
-Output: Optimal spanning forest \( F^* \)
+Output: Optimal spanning forest F*
 
-1. Initialize population \( \mathcal{P} \) with \( P \) random spanning forests
-2. For generation \( g = 1 \) to \( G \):
-   3. For each individual \( F \in \mathcal{P} \):
-      4. Compute fitness \( f(F) = k(F) \)
-   5. Select parents from \( \mathcal{P} \) based on fitness
+1. Initialize population 𝒫 with P random spanning forests
+2. For generation g = 1 to G:
+   3. For each individual F in 𝒫:
+      4. Compute fitness f(F) = k(F)
+   5. Select parents from 𝒫 based on fitness
    6. Apply crossover to parents to produce offspring
-   7. Apply mutation to offspring with probability \( \mu \)
-   8. Replace worst individuals in \( \mathcal{P} \) with offspring
-9. Return \( F^* \gets \arg\min_{F \in \mathcal{P}} f(F) \)
+   7. Apply mutation to offspring with probability μ
+   8. Replace worst individuals in 𝒫 with offspring
+9. Return F* = argmin_{F in 𝒫} f(F)
 
