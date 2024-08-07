@@ -1,5 +1,5 @@
 # Evolutionary-Spanning-Clustering-ESC-
-A novel clustering algorithm that works great on all sorts of data distributions
+A novel clustering algorithm that uses GA and spanning forest concepts for clustering.
 
 
 ESC effectively handles complex clustering tasks where traditional methods may fail by forming naturally separated clusters based on the inherent structure of the data.
