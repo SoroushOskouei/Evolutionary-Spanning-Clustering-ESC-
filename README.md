@@ -4,6 +4,10 @@ A novel clustering algorithm that works great on all sorts of data distributions
 
 ESC effectively handles complex clustering tasks where traditional methods may fail by forming naturally separated clusters based on the inherent structure of the data.
 
+
+![image](https://github.com/user-attachments/assets/a71197ab-c565-4508-8682-4b676fa83806)
+
+
 ## Key Features
 
 - **Genetic Algorithm-Based Clustering:** Utilizes genetic algorithms to optimize the clustering process.
