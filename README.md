@@ -10,9 +10,15 @@ ESC effectively handles complex clustering tasks where traditional methods may f
 - **Adaptive Clustering:** Automatically adapts to the natural structure of data, without imposing artificial boundaries.
 - **Effective for Complex Datasets:** Proven performance on synthetic datasets, including circles, blobs, and moons.
 
+
+### ESC Pseudocode
+
+```plaintext
 Algorithm: Evolutionary Spanning Clustering (ESC)
 
-Input: Dataset \( \mathbf{X} \), distance threshold \( D \), population size \( P \), number of generations \( G \), mutation rate \( \mu \)
+Input: Dataset \( \mathbf{X} \), distance threshold \( D \), 
+       population size \( P \), number of generations \( G \), 
+       mutation rate \( \mu \)
 
 Output: Optimal spanning forest \( F^* \)
 
@@ -26,4 +32,3 @@ Output: Optimal spanning forest \( F^* \)
    8. Replace worst individuals in \( \mathcal{P} \) with offspring
 9. Return \( F^* \gets \arg\min_{F \in \mathcal{P}} f(F) \)
 
-A sample of this algorithm is attached as a notebook, in which you can find experimental results. 
