@@ -2,7 +2,7 @@
 A novel clustering algorithm that uses GA and spanning forest concepts for clustering.
 
 
-ESC effectively handles complex clustering tasks where traditional methods may fail by forming naturally separated clusters based on the inherent structure of the data.
+ESC effectively handles complex clustering tasks where traditional methods may fail by forming naturally separated clusters based on the inherent structure of the data, providede that a reasonable distance threshold is given.
 
 
 ![image](https://github.com/user-attachments/assets/a71197ab-c565-4508-8682-4b676fa83806)
