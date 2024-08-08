@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following metadata."
+title: "Evolutionary Spanning Clustering (ESC)"
+authors:
+  - family-names: "Oskouei"
+    given-names: "Soroush"
+date-released: 2024-08-08
+version: "1.0.0"
+repository-code: "https://github.com/SoroushOskouei/Evolutionary-Spanning-Clustering-ESC-"
+url: "https://github.com/SoroushOskouei/Evolutionary-Spanning-Clustering-ESC-"
