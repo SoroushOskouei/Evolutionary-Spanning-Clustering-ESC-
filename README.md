@@ -13,6 +13,7 @@ For large datasets, a grid-based approach should be taken to speed up the proces
 - **Genetic Algorithm-Based Clustering:** Utilizes genetic algorithms to optimize the clustering process.
 - **Adaptive Clustering:** Automatically adapts to the natural structure of data, without imposing artificial boundaries.
 - **Effective for Complex Datasets:** Proven performance on synthetic datasets, including circles, blobs, and moons.
+- **Extremely fast when using the grid-based is used.
 
 
 ### ESC Pseudocode
