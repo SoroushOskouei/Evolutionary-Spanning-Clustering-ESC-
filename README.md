@@ -15,6 +15,7 @@ For large datasets, a grid-based approach should be taken to speed up the proces
 - **Effective for Complex Datasets:** Proven performance on synthetic datasets, including circles, blobs, and moons.
 - **Extremely fast when using the grid-based approach.**
 
+### Note: selecting a reasonable threshold and grid size is important for a good performance, nevertheless, if this information is not available, it can be found during the training/validation phase.
 
 ### ESC Pseudocode
 
