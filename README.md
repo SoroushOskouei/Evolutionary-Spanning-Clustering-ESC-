@@ -4,7 +4,7 @@ A novel clustering algorithm that uses GA and spanning forest concepts for clust
 
 ESC effectively handles complex clustering tasks where traditional methods may fail by forming naturally separated clusters based on the inherent structure of the data, provided that a reasonable distance threshold is given.
 
-For large datasets, a grid-based approach should be taken to speed up he process. See the related notebook attached for a grid-based approach.
+For large datasets, a grid-based approach should be taken to speed up the process. See the related notebook attached for a grid-based approach.
 
 ![image](https://github.com/user-attachments/assets/a0a453e0-d3e5-44c7-aab2-59fc90f6c71d)
 
